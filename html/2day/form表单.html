@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    提升用户体验：<label for=""></label> for属性和input的id属性关联
+    文件：<input type="file" /> 修改form的编码格式为二进制：enctype=m/form-data
+
+
+
+
+
+
+    <form action="./调查表.html" name="form1" method="get">
+        姓名：<input type="text" name="姓名">
+        <br>
+        年龄：<input type="text" name="年龄" value="30岁">
+        <br>
+        性别：<input type="radio" name="sex" value="1" id="1">
+        <label for="1">男</label>
+        <input type="radio" name="sex" value="2" id="2">
+        <label for="2">女</label>
+        <br>
+        爱好：<input type="checkbox" name="hobby" value="chang">唱
+        <input type="checkbox" name="hobby" value="tiao">跳
+        <input type="checkbox" name="hobby" value="da">打
+        <br>
+        <input type="submit" value="登录">
+        <input type="reset" value="取消">
+        <input type="button" value="无按钮">
+        <br>
+        <button><img src="../OIP-C.jpeg" height="50" width="20"></button>
+        <p>
+            下拉列表：
+            <select name="city" id="city">
+                <option value="1">北京</option>
+                <option value="2">天津</option>
+                <option value="3">河北</option>
+                <option value="4">河南</option>
+                <option value="5">上海</option>
+            </select>
+            <select name="city1" id="city1">
+                <optgroup label="北京">
+                    <option value="1">朝阳</option>
+                    <option value="2">大兴</option>
+                </optgroup>
+                <optgroup label="河北">
+                    <option value="3">石家庄</option>
+                    <option value="4">保定</option>
+                    <option value="5">张家口</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            留言：
+            <textarea name="remk" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            文件：<input type="file">
+        </p>
+        <p>
+            隐藏域：<input type="hidden" value="元宝">
+        </p>
+        <p>
+            图片提交按钮：<input type="image" src="./1day/兄弟/下载.jpeg">
+        </p>
+    </form>
+
+
+    <form action="" name="form1">
+        <table border="3" width="800" align="center">
+            <tr align="center">
+                <td>姓名：</td>
+                <td> <input type="text" name="姓名" value=""></td>
+            </tr>
+            <tr align="center">
+                <td>密码：</td>
+                <td><input type="password" name="password" value=""></td>
+            </tr>
+            <tr align="center">
+                <td> 确认密码：</td>
+                <td> <input type="password" name="password" value=""></td>
+            </tr>
+            <tr align="center">
+                <td> 性别：</td>
+                <td>
+                    <input type="radio" name="sex" value="1" id="1">
+                    <label for="1">男</label>
+                    <input type="radio" name="sex" value="2" id="2">
+                    <label for="2">女</label>
+                </td>
+            </tr>
+            <tr align="center">
+                <td> 爱好：</td>
+                <td>
+                    <input type="checkbox" name="hobby" value="eat">吃
+                    <input type="checkbox" name="hobby" value="piay">玩
+                    <input type="checkbox" name="hobby" value="休息">休息
+                </td>
+            </tr>
+            <tr align="center">
+                <td> 城市：</td>
+                <td>
+                    <select name="city">
+                        <option value="1">河北</option>
+                        <option value="2">河南</option>
+                        <option value="1">山东</option>
+                        <option value="2">山西</option>
+                    </select>
+                </td>
+            <tr align="center">
+                <td> 自我介绍：</td>
+                <td>
+                    <textarea name="介绍" cols="30" rows="10">属于你个人的介绍，请填写</textarea>
+                </td>
+            <tr align="center">
+                <td colspan="2">
+                    <input type="submit" value="立即注册">
+                </td>
+        </table>
+    </form>
+
+
+
+    <form action="" name="form2" enctype="multipart/form-data">
+        <table border="1" width="800" align="center">
+            <h1>尚学堂学生信息表</h1>
+            <tr>
+                <td>
+                    学生姓名： <input type="text" name="姓名" value="">
+                    设置密码： <input type="password" name="key" value="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    性别：
+                    <br>
+                    <label for="男">男生：</lable>
+                        <input type="radio" name="sex" value="1" id="男">
+                        <label for="女">女生：</lable>
+                            <input type="radio" name="sex" value="1" id="女">
+                            <hr>
+                            籍贯：
+                            <select name="beijing" id="">
+                                <option value="0">北京</option>
+                                <option value="0">北京</option>
+                                <option value="0">北京</option>
+                            </select>
+                            <hr>
+                            自我介绍：
+                            <textarea cols="60" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    爱好兴趣：
+                    <br>
+                    <label for="football">足球</lable>
+                        <input type="checkbox" id="football">
+                        <label for="football">足球</lable>
+                            <input type="checkbox" id="football">
+                            <label for="football">足球</lable>
+                                <input type="checkbox" id="football">
+                                <hr>
+                                上传照片：
+                                <input type="file">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+
+
+
+
+
+
+
+    <form>
+        <table border="1" width="800" align="center">
+            <tr>
+                <td>用户名：</td>
+                <td> <input type="text"></td>
+            </tr>
+            <tr>
+                <td>密码：</td>
+                <td><input type="password"></td>
+
+            </tr>
+            <tr>
+                <td>确认密码:</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td>验证码：</td>
+                <td><input type="password"></td>
+            </tr>
+            <br />
+            <tr>
+                <td> 性别：</td>
+                <td> <input type="radio" name="sex" id="1" selection>
+                    <label for="1">男</label>
+                    <input type="radio" name="sex" id="2">
+                    <label for="2">女</label>
+                </td>
+            </tr>
+            <tr>
+                <td>年龄：</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>爱好：</td>
+                <td>
+                    <select name="购物" id="">
+                        <option value="0">衣服</option>
+                        <option value="1">鞋子</option>
+                        <option value="2">包包</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td> 你喜欢的游戏：</td>
+                <td>
+                    <label for="play">穿越火线</lable>
+                    <input type="checkbox" id="play">
+                    <label for="play2">英雄联盟</lable>
+                    <input type="checkbox" id="play2">
+                    <label for="play3">逆战</lable>
+                    <input type="checkbox" id="play3">
+                </td>
+            </tr>
+            <tr>
+                <td>邮箱：</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>
+                 邮箱密码：
+                </td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2">
+                    <input type="submit">
+                    <input type="reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul li{
+          color: aqua;
+        }
+
+        div>p{
+            color:brown
+        }
+
+        h3+p{
+            color: blue;
+        }
+        h3~div{
+            color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    
+后代选择器 :ul li{color:red}
+<br/>
+<ul>
+    <li>列表1</li>
+    <li>列表2</li>
+    <li>列表3</li>
+    <div>
+        <ol>
+            <li>列表4</li>
+            <li>列表5</li>
+        </ol>
+    </div>
+</ul>
+<br/>
+子代选择器：只有直接子元素生效
+<div>
+    <p>大家好</p>
+    <ul>
+        <li>
+            <p>我很好</p>
+        </li>
+    </ul>
+</div>
+<br/>
+
+相邻兄弟:只能向下选择，只有兄弟生效
+
+<h3>我是标题</h3>
+<p>我是内容</p>
+<p>我是黎明</p>
+<br/>
+通用兄弟选择器
+
+<h3>我是刘雅静</h3>
+<div>我是何梦召</div>
+<div>我是大柳树</div>
+</body>
+</html>

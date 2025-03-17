@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height:100px;
+            background-color: red;
+            /* padding: 50px 10px; */
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            border: 5px solid blue;
+            margin: 200px;
+            box-sizing: content-box;
+        }
+        html{
+            font-size: 14px;
+        }
+
+        .centent{
+            box-sizing: content-box;
+            width: 100px;
+            padding: 20px;
+            border: 10px solid red;
+            margin: 20px;
+        }
+
+        .border{
+            box-sizing: border-box;
+            width: 100px;
+            padding: 20px;
+            border: 10px solid red;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    外边距（margin有两个值），边框（border），内边距（padding 两个值：第一个值表示上下，第二个表示左右）内容（content）
+
+
+    <div>我是追忆时光</div>
+    <p>我是刘雅静</p>
+
+
+    <div style="font-size: 20px; width: 20rem; background-color: rgb(199, 55, 103);">我是一rem</div>
+    <div style="font-size: 20px; width: 20em; background-color: aqua;">我是一em</div>
+    <div style="font-size: 40px; width: 20em; background-color: rgb(72, 32, 165);">我也是一em</div>
+
+
+
+    <div class="centent">
+    我是标准盒子content-box
+    </div>
+    <div class="border">
+        我是怪异盒子border-box
+        </div>
+</body>
+</html>

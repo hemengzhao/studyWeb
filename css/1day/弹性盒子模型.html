@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 500px;
+            height: 500px;
+            background-color: #1234ab;
+            display:flex;
+            flex-direction:row;
+            justify-content: center;
+            align-items:center;
+        }
+
+
+        .box1{
+            width: 100px;
+            height: 100px;
+            background-color: #ab124d;
+            flex: 3;
+        }
+
+        .box2{
+            width: 100px;
+            height: 100px;
+            background-color: #d2ed3e;
+            flex: 1; 
+        }
+        .box3{
+            width: 100px;
+            height: 100px;
+            background-color: #12ab69;
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    作用在父元素上的属性：
+    通过设置display属性的值为flex将其定义为弹性容器<br/>默认弹性盒子里的内容为横向摆放
+    <br/>
+    flex-direction 指定了弹性子元素在父容器中的位置
+    语法：row(从左到右排列)，row-reverse(反转，右对齐，从后往前排)，column(纵向排列)，column-reverse(反转纵向排列)
+    <br/>
+    justify-content:flex-start(据上摆放),flex-end（据下摆放）,center
+    <hr color="green"/>
+     作用在子元素上的属性：
+    flex(按权重分配空间)
+
+
+    <div class="container">
+      <div class="box1"></div>
+      <div class="box2"></div>
+      <div class="box3"></div>
+    </div>
+</body>
+</html>

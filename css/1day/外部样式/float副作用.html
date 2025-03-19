@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .container{
+            width: 500px;
+            /* height:500px; */
+            background-color: blanchedalmond;
+            overflow:hidden;
+            /* clear: both; */
+            
+       }
+
+       /* .container::after{
+        content:"";
+        display:block;
+        clear:both;
+       } */
+    /* text在父容器里面会被盖住即2种元素重叠在一起 */
+
+     .box{
+        width: 150px;
+        height: 150px;
+        background-color: rgb(226, 19, 136);
+        margin:5px ;
+        float:left;
+     }
+        .text{
+        width: 150px;
+        height: 150px;
+        background-color: rgb(19, 226, 43);
+        /* clear: both; */
+    
+     }
+     
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"  ></div>
+        <div class="box"></div>
+        <div class="box"></div>
+     </div>
+     <div class="text"></div>
+</body>
+</html>

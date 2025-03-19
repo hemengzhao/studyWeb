@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div{
+             height: 500px;
+             background-color: red;
+            
+        }
+        .content{
+            /* position: relative; */
+            /* height: 300px; */
+            overflow: auto;
+        }
+        
+        .sticky{
+            height: 40px;
+            position: sticky; 
+            top: 20px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div style="height: 100vh; background-color: yellow; padding-top: 100px;">
+        
+    <div class="content">
+ 
+        <div></div>
+        <div></div>
+     
+        <div class="sticky"> 我是粘性定位1</div>
+        <div></div>
+        <div></div>
+        <div  class="sticky">我是粘性定位2</div>
+        <div></div>
+        <div></div>
+        
+        <div  class="sticky">我是粘性定位3</div>
+        <div></div>   <div></div>
+    </div>
+
+</div>
+</body>
+</html>

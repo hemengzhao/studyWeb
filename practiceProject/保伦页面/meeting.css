@@ -1,0 +1,57 @@
+.container{
+    width: 1200px;
+    height: 100vh; 
+    display: flex;
+
+}
+
+.left-content{
+    width: 80px;
+    height:100%; 
+   font-size:12px;
+   color:#77797F;
+   background-color: #030303;
+   text-align: center;
+   position: relative;
+   padding-top: 60px;
+   box-sizing: border-box;
+}
+.left-content .nav-itme{
+    margin-top: 60px;
+}
+.left-content .nav-itme.active{
+    color: aliceblue;
+}
+
+.left-content .nav-itme img{
+width: 24px;
+height: 24px;
+}
+.left-content .nav-itme.logon-out{
+position: absolute;
+left: 0;
+bottom: 20px;
+width: 100%;
+}
+
+.right-content{
+   flex: 1;
+   height: 100%; 
+   background-color: aqua;
+}
+.top-box{
+    height: 54px; 
+}
+.bottom-box{
+    height: calc(100% - 54px ); 
+    display: flex;
+}
+
+.left-box{
+   flex: 1;
+   height: 100%;
+}
+.right-box{
+    width: 365px;
+    height: 100%;
+}

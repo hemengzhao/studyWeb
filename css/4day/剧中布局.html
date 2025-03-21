@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .perter{
+            border: 1px solid red;
+            width: 200px;
+            height: 200px;
+        }
+        .child{
+            background-color: aqua;
+            width: 50px;
+            height: 50px;
+        }
+
+        .centent1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .centent2{
+            position: relative;
+        }
+        .centent2 div{
+            position: absolute;
+            left: calc(200px / 2 - 50px / 2);
+            top: 75px;
+        }
+
+        .centent3{
+            position: relative;
+        }
+        .centent3 div{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+        }
+
+        .centent4{
+            text-align: center;
+            line-height: 200px;
+        }
+        .centent4 div{
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .centent5{
+            position: relative;
+        }
+        .centent5 div{
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translateX(-50%) translateY(-50%);
+        }
+        
+        .big{
+            background-color: blueviolet;
+            width: 800px;
+            height: 800px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .small{
+            background-color: aquamarine;
+            width: 200px;
+            height: 200px;
+           
+        }
+    </style>
+</head>
+<body>
+    <h1>居中布局方式1: flex   </h1>
+    <div class="centent1 perter">
+        <div class="child"></div>
+    </div>
+
+    <h1>居中布局方式2: 定位   </h1>
+    <div class="centent2 perter">
+        <div class="child"></div>
+    </div>
+
+
+    <h1>居中布局方式3: 定位  margin: auto  </h1> 
+    <div class="centent3 perter">
+
+        <div class="child"></div>
+    </div>
+
+    <h1>居中布局方式4: 子元素设置为行内块元素   </h1>
+    <div class="centent4 perter">
+        <div class="child"></div>
+    </div>
+
+
+    <h1>居中布局方式5: 子元素设置为行内块元素   </h1>
+    <div class="centent5 perter">
+        <div class="child"></div>
+    </div>
+
+
+<div class="big">
+    <img class="small" src="./图层 33@2x.png"/>
+</div>
+
+
+
+
+</body>
+</html>

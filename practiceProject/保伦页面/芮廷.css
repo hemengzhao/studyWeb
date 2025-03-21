@@ -50,7 +50,7 @@
 .box{
     width: 560px;
     height:600px;
-    border:1px solid #12ab3b;
+    /* border:1px solid #12ab3b; */
 
 }
 .pen{
@@ -77,5 +77,39 @@
     width:400px;
     height: 40px;
     margin-left: 60px;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
 }
+.option{
+    font-size: 20px;
+    color: black;
+    /* margin-right:50px;  */
+    margin-left: 60px;
+    margin-bottom: 40px;
+}
+.option1{
+    margin-right:80px; 
+}
+.option2{
+    color: aqua;
+   
+   
+}
+.submit{
+border: 1px solid #15d7db;
+width: 400px;
+height: 40px;
+margin-left: 60px;
+background-color: aqua;
+color: aliceblue;
+text-align: center;
+padding-top: 12px;
+border-radius: 10px;
+margin-bottom: 12px
+}
+.wenzi2{
+   display: flex;
+   justify-content: center;
+}
+.wenzi3{
+   color: #15d7db;
+ }

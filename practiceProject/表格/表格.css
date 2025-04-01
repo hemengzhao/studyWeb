@@ -1,0 +1,177 @@
+.container{
+width: 1440px;
+height: 900px;
+display: flex;
+flex-direction: column;
+
+}
+
+.container .top-content{
+    height: 56px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 16px;
+    }
+    .container .top-content .word{
+display: flex;
+flex-direction: row;
+position: relative;
+    }
+
+    .container .top-content .word .box{
+width: 20px;
+height: 20px;
+margin-left: 33px;
+margin-top: 11px;
+
+    }
+
+.container .top-content .word .option{
+ width: 640px;
+height: 56px;
+font-size: 14px;
+font-weight: 400px;
+color: #FFFFFF;
+line-height: 22px;
+position: absolute;
+left: 300px;
+line-height: 56px;
+display: flex;
+justify-content: space-between;
+text-align: left;
+
+}
+
+.container .bottom-content{
+border: 3px solid red;
+flex: 1;
+background-color: aquamarine;
+display: flex;
+    }
+
+ .container .bottom-content .left-content{
+  width: 208px;
+ }
+
+ .container .bottom-content .left-content .daiban{
+    width: 192px;
+    height: 442px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 8px;
+   }
+
+   .container .bottom-content .left-content .daiban .shixiang{
+    height: 42px;
+   line-height: 42px;
+    font-size: 14px;
+   
+   }
+
+   .container .bottom-content .left-content .daiban .shixiang1{
+    width: 192px;
+    height: 42px;
+   line-height: 42px;
+    font-size: 14px;
+  background-color: aqua;
+    border-radius: 6px;
+    text-align: center;
+    
+   }
+
+ .container .bottom-content .right-content{
+    flex: 1;
+    background-color: bisque;
+   }
+
+   .container .bottom-content .right-content .shouhang{
+    height: 22px;
+    background-color: bisque;
+    margin-top: 8px;
+    margin-left: 21px;
+   }
+
+   .container .bottom-content .right-content .shouhang .title{
+    width: 56px;
+    height: 22px;
+    background-color: bisque;
+   }
+
+   .container .bottom-content .right-content .erhang{
+   
+    height: 64px;
+    background-color: rgb(131, 127, 123);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+   }
+
+   .container .bottom-content .right-content .erhang .box-wenzi{
+    width: 756;
+    height: 64px;
+
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    position: absolute;
+    left: 16px;
+    
+   
+   }
+   
+
+   .container .bottom-content .right-content .erhang .bottom-title{
+   width: 220px;
+    height: 32px;
+    background-color: rgb(196, 251, 255);
+    font-size: 12px;
+    display: inline;
+    margin-left: 22px;
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+   
+    
+   
+   }
+   .container .bottom-content .right-content .erhang .bottom-title .title1{
+     width: 72px;
+     height: 28px;
+     background-color: rgb(240, 244, 245);
+     color: black;
+     font-size: 12px;
+     line-height: 28px;
+     border-radius: 8px;
+     text-align: center;
+     padding-top: 3px;
+     
+    }
+    .container .bottom-content .right-content .bottom-table{
+        height: calc(100% - 30px - 64px);
+    }
+
+    .container .bottom-content .right-content .bottom-table table{
+        width: 100%;
+        height:56px;
+        background-color: darkgrey;
+        font-size:14px ;
+       
+       
+    }
+
+    .container .bottom-content .right-content .bottom-table table>th{
+      width: 100px;
+    
+    }
+   
+    
+
+    .container .bottom-content .right-content .bottom-table .head .kuang{
+       width: 16px; 
+       height: 16px;
+       margin-top: 27px;
+    }

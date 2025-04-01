@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .dom1 span {
+            display: inline-block;
+        }
+
+        .dom1 span:nth-child(1) {
+            width: 100px;
+            height: 100px; 
+            border-top: 100px solid red;
+            border-bottom: 100px solid yellowgreen;
+            border-left: 100px solid plum;
+            border-right: 100px solid blueviolet;
+        }
+
+        .dom1 span:nth-child(2) {
+            width: 0;
+            height: 0;
+            border: 100px solid red;
+            border-top-color: yellowgreen;
+            border-bottom-color: blueviolet;
+        }
+
+        .dom1 span:nth-child(3) {
+            border-top: 100px solid red;
+            border-bottom: 100px solid rgba(0,0,0,0);
+            border-left: 100px solid transparent;
+            border-right: 100px solid transparent;
+            /* transform: all 2s; */
+            transition: all 2s;
+        }
+        .dom1 span:nth-child(3):hover{
+            border-width: 200px;
+        }
+
+        .dom1 span:nth-child(4) {
+            border-top: 100px solid transparent;
+            border-bottom: 100px solid transparent;
+            border-left: 50px solid red;
+            border-right: 100px solid transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dom1">
+        <span class="dom1-1">
+
+        </span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</body>
+
+</html>

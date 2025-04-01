@@ -1,0 +1,65 @@
+.type-SH{
+    
+    height: 40px;
+    background-color: rgb(46, 47, 47);
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;
+  
+}
+
+
+.left-content a{
+color: darkgray;
+text-decoration: none;
+font-size: 12px;
+margin-right: 14px;
+}
+
+.left-content a:hover{
+    color: azure;
+}
+
+.right-content a{
+    color: darkgray;
+    text-decoration: none; 
+    font-size: 12px; 
+    margin-right: 14px;
+}
+
+.right-content a:hover{
+    color: azure;  
+}
+
+.right-content .che:hover{
+    color: rgb(222, 87, 14);  
+}
+.category{
+   height: 98px;
+   border: 1px solid red; 
+   display: flex;
+   justify-content: space-between;
+  align-items: center;
+}
+
+.category>img{
+    width: 54px;
+    height: 54px;
+}
+
+.category a{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    margin-left: 18px;
+
+}
+
+.category a:hover{
+    color: chocolate;
+}
+
+.category .sousuo>img{
+    width: 18px;
+    height: 20px;
+}

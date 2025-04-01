@@ -1,0 +1,252 @@
+.container .bottom-box .zhuce {
+    width: 452px;
+    height: 536px;
+    background-color: #3e3b3b;
+    border: 1px solid rgb(147, 141, 141);
+    border-radius: 4px;
+    margin: 230px auto;
+    position: relative;
+    padding: 44px;
+}
+
+.container .bottom-box .zhuce .qr {
+    /* width: 100%;
+    height: 62px; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: rotate(-45deg);
+    transform-origin: top left;
+    overflow: hidden;
+}
+
+.container .bottom-box .zhuce .img1 {
+    transform: rotate(45deg);
+    transform-origin: top left;
+}
+
+.bottom-box .zhuce .title {
+    display: flex;
+    font-size: 24px;
+    color: rgb(136, 139, 136);
+}
+
+.bottom-box .zhuce .title a{
+   text-decoration: none;
+    color: rgb(136, 139, 136);
+}
+
+.bottom-box .zhuce .title .wenzi1>a{
+    color: aliceblue;
+    border-bottom: 3px solid rgb(234, 148, 10);
+    margin-left: 20px;
+}
+
+.bottom-box .zhuce .title a:active{
+    border-bottom: 3px solid rgb(234, 148, 10);
+}
+
+.input-box {
+    width: 100%;
+    height: 62px;
+    padding: 0 12px;
+    box-sizing: border-box;
+    background-color: #565454;
+    border-radius: 4px;
+    position: relative;
+    margin-top: 14px;
+    color: aliceblue;
+}
+
+.input-box .hanzi {
+    height: 32px;
+    line-height: 32px;
+}
+
+.input-box select {
+    width: 100%;
+    height: 62px;
+    background-color: transparent;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 12px;
+    border: none;
+    outline: none;
+    padding-top: 20px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.input-box>select:focus {
+    border: 1px solid rgb(234, 129, 9);
+}
+
+
+.phone {
+    display: flex;
+    margin-top: 14px;
+    margin-bottom: 12px;
+
+}
+
+.phone .input-box {
+    width: 130px;
+    margin-top: 0;
+    border-radius: 4px 0px 0px 4px;
+
+}
+
+.right-box {
+    flex: 1;
+    background-color: #565454;
+    position: relative;
+    font-size: 24px;
+    color: azure;
+    padding-left: 34px;
+}
+
+.right-box .shouji {
+    height: 62px;
+    line-height: 62px;
+}
+
+.zhuce .word1 {
+    color: brown;
+    margin-bottom: 14px;
+}
+
+.right-box .box1 {
+    width: 100%;
+    height: 62px;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 0px 4px 4px 0px;
+}
+
+
+
+.right-box .box1:focus+.shouji {
+
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+.right-box .box1:focus {
+    height: 62px;
+    line-height: 62px;
+
+}
+
+.phone:hover {
+    border: 1px solid rgb(233, 104, 12);
+
+}
+
+
+.password {
+    height: 62px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #565454;
+    padding-right: 16px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    overflow: hidden;
+
+}
+
+.password:hover {
+    border: 1px solid rgb(237, 123, 10);
+}
+
+.password .yanzheng {
+    width: 280px;
+    height: 62px;
+    background-color: #565454;
+    font-size: 20px;
+    color: rgb(225, 109, 20);
+    position: relative;
+    line-height: 62px;
+    box-sizing: border-box;
+    padding-left: 12px;
+}
+
+.password .yanzheng>input {
+    width: 280px;
+    height: 62px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+
+
+}
+
+.password .yanzheng>input:focus+.word {
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+    color: chocolate;
+}
+
+.password a {
+    font-size: 18px;
+    text-decoration: none;
+    height: 62px;
+    line-height: 62px;
+    color: chocolate;
+    font-weight: 900;
+}
+
+.zhuce .yanzheng1 {
+    margin-top: 12px;
+    color: chocolate;
+}
+
+.container .right-content .bottom-box .shengming{
+    margin-bottom: 14px;
+    color: rgb(117, 118, 120);
+    margin-bottom: 22px;
+    height: 24px;
+    line-height: 24px;
+    text-align: left;
+}
+
+
+.zhuce .shengming strong {
+    color: rgb(228, 232, 242);
+}
+
+.zhuce input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    background-color: #3e3b3b;
+}
+
+.zhuce .tijiao {
+    width: 100%;
+    height: 62px;
+    background-color: chocolate;
+    color: aliceblue;
+    font-size: 18px;
+    line-height: 62px;
+    text-align: center;
+}
+
+.zhuce .yanzheng2 {
+    font-size: 16px;
+    color: chocolate;
+    margin-top: 18px;
+}

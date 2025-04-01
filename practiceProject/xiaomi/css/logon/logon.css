@@ -1,0 +1,190 @@
+.container .right-content .bottom-box .zhuce .title{
+    font-size: 24px;
+    display: flex;
+    color: darkgray;
+    margin-bottom: 19px;
+    
+    }
+    .title .wenzi1{
+        color: black;
+        margin-left: 20px;
+        border-bottom:  5px solid  orange;
+        margin-bottom: 10px;
+    }
+
+    /* .zhuce .qr{
+        position: absolute;
+        right: 0px;
+        top: 0px;overflow: hidden;
+    }
+    .zhuce .qr::before{
+        content: '';
+        display: block;
+        width: 85px;
+        height: 48px;
+        position: absolute;
+        background: #f0e2e3;
+        transform: rotateZ(45deg);
+        left: -40px;
+        top: 10px;
+    } */
+
+    .zhuce .qr{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        transform: rotate(315deg);
+        overflow: hidden;
+        transform-origin: top left;
+    }
+     .zhuce .qr img{
+        transform: rotate(45deg); 
+        transform-origin: top left;
+     }
+
+    .zhuce .box{
+        padding: 40px ;
+    }
+
+    .input-box{
+        width: 100%;
+        padding: 0 20px 0;
+        background-color: #333;
+        border-radius: 6px;
+        box-sizing: border-box;
+        height: 62px;
+        position: relative;
+
+    }
+    .input-box div{
+        height: 62px;
+        line-height: 62px;
+        font-size: 20px;
+        color: #fff;
+    }
+    .input-box input{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        background-color: transparent;
+        border: none !important;
+        outline: none !important;
+        padding: 32px 20px;
+        box-sizing: border-box;
+        font-size: 16px;
+        color: #fff;
+    }
+    .input-box input:focus{
+        border: 1px solid #ff5d00 !important;
+    }
+    .input-box input:focus + div{
+        height: 32px;
+        line-height: 32px;
+        font-size: 14px;
+    }
+
+    .mima-box{
+        width: 100%;
+        height: 62px;
+        padding: 0 12px;
+        border-radius: 4px;
+        background-color: gray;
+        box-sizing: border-box;
+        position:  relative;
+        margin-top:20px;
+    }
+
+    .mima-box div{
+        font-size: 20px;
+        color: #fff;
+        line-height: 62px;
+    }
+
+    .mima-box input:focus~div{
+        font-size: 12px;
+        color: #fff;
+        height: 32px;
+        line-height: 32px;
+    }
+
+    .mima-box input{
+        width: 100%;
+        height: 62px;
+        background-color: transparent;
+        border: none;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        font-size: 16px;
+        color: #fff;
+        outline: none;
+       
+    }
+
+    .mima-box input:focus {
+    border: 1px solid red;
+    }
+
+
+
+
+
+
+
+    .container .right-content .bottom-box .zhuce .box .shurukuang{
+    width: 338px;
+    height: 62px;
+    border: 0px solid rgb(104, 99, 99); 
+    background-color: darkgray;
+    border-radius: 4px;
+    margin-bottom: 18px;
+    padding-left:20px ;
+    }
+
+    .container .right-content .bottom-box .zhuce .box .shengming1{
+        margin-top: 7px;
+        text-align: left;
+        margin-bottom: 22px;
+    }
+
+    .container .right-content .bottom-box .zhuce .box .denglu{
+        width: 358px;
+        height: 62px; 
+        background-color: chocolate; 
+        border-radius: 4px;
+        line-height: 62px;
+        text-align: center;
+    }
+
+    .box .zi{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+    margin-bottom: 30px;
+
+    }
+    .box .zi1{
+        color: rgb(231, 135, 10);
+        text-decoration: none;
+    }
+
+    .box .zi2{
+font-size: 16px;
+color: darkgray;
+text-align: center;
+margin-bottom: 12px;
+    }
+
+    .box .tupian{
+       text-align: center;
+     
+    }
+
+    .box .tupian>img{
+        width: 42px;
+        height: 42px;
+    }
+
+
+    

@@ -4,9 +4,14 @@ html, body{
     margin: 0;
     padding: 0;
 }
-
-.container{
+ 
+.warrpe{
+    width: 100%; 
+}
+.warrpe .content{
     width: 1226px;
     margin: 0 auto;
-    
+}
+.top-nav{
+    background-color: #333;
 }

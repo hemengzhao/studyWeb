@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4895985 */
+  src: url('iconfont.woff2?t=1744855569260') format('woff2'),
+       url('iconfont.woff?t=1744855569260') format('woff'),
+       url('iconfont.ttf?t=1744855569260') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-shoppingcart:before {
+  content: "\e70b";
+}
+
+.icon-tv:before {
+  content: "\e720";
+}
+
+.icon-a-weixin_huaban1:before {
+  content: "\e63c";
+}
+
+.icon-a-dingwei_huaban1:before {
+  content: "\e63e";
+}
+
+.icon-a-dingzhi_huaban1:before {
+  content: "\e63f";
+}
+
+.icon-a-weixin2_huaban1_huaban1:before {
+  content: "\e647";
+}
+
+.icon-zoomout:before {
+  content: "\e73b";
+}
+
+.icon-shijian:before {
+  content: "\e854";
+}
+
+.icon-daifukuan:before {
+  content: "\e61e";
+}
+
+.icon-ai59:before {
+  content: "\e6b1";
+}
+
+.icon-shoppingcart02:before {
+  content: "\e70c";
+}
+
+.icon-sun02:before {
+  content: "\e718";
+}
+
+.icon-tag02:before {
+  content: "\e71b";
+}
+
+.icon-tint:before {
+  content: "\e71e";
+}
+
+.icon-up04:before {
+  content: "\e723";
+}
+
+.icon-voice02:before {
+  content: "\e727";
+}
+
+.icon-waterdrop:before {
+  content: "\e72d";
+}
+
+.icon-weather:before {
+  content: "\e72e";
+}
+
+.icon-zoomin:before {
+  content: "\e73a";
+}
+

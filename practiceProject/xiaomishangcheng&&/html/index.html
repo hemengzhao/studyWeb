@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/xiaomi.css">
+</head>
+
+<body>
+    <div class="container color">
+        <div class="type content">
+            <div class="nav">
+                <div class="left-text">
+                    <a>小米商城</a>
+                    <a>小米商城</a>
+                    <a>小米官网</a>
+                    <a>小米商城</a>
+                    <a>小米汽车</a>
+                    <a>小米澎湃OS</a>
+                    <a>云服务</a>
+                    <a>IoT</a>
+                    <a>有品</a>
+                    <a>小爱开放平台</a>
+                    <a>资质证照</a>
+                    <a>协议规则</a>
+                    <a>下载APP</a>
+                    <a>SelectLocation</a>
+                </div>
+                <div class="right-content">
+                    <a href="#">登录</a>
+                    <a href="#">注册</a>
+                    <a href="#">消息通知</a>
+                    <a class="che" href="#">购物车（0）</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="second-nav">
+        <div class="type">
+            <div class="category">
+                <img src="../img/xiaomi-logon.png" />
+                <div>
+                    <a href="#">Xiaomi手机</a>
+                    <a href="#">REDMI手机</a>
+                    <a href="#">电视</a>
+                    <a href="#">笔记本</a>
+                    <a href="#">平板</a>
+                    <a href="#">家电</a>
+                    <a href="#">路由器</a>
+                    <a href="#">服务中心</a>
+                    <a href="#">社区</a>
+                </div>
+
+
+                <div class="sousuo">
+                    <input type="text" placeholder="小米手机9" />
+                    <div class="scher"><img src="../../xiaomishang/image/WechatIMG1816.jpg" /></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="second-nav">
+        <div class="type">
+            <div class="huan">
+                <div class="picter">
+                    <img src="../img/1.webp" />
+                    <!-- <img src="../img/2.webp" />
+                    <img src="../img/3.jpg" />
+                    <img src="../img/4.webp" />
+                    <img src="../img/5.webp" />
+                    <img src="../img/6.webp" /> -->
+                </div>
+                <div><img src="../img/右_right@2x.png" /></div>
+                <ol class="cirle">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <script>
+        // const data = [
+        //     "../img/1.webp",
+        //     "../img/2.webp",
+        //     "../img/3.jpg",
+        //     "../img/4.webp",
+        //     "../img/5.webp",
+        //     "../img/6.webp"
+        // ]
+        // const random = Math.floor(Math.random()* data.length)
+
+        // let num = 0 
+        // const img = document.querySelector('.picter img')
+
+
+        // function updataImg (){ 
+        //       img.src = data[num++] 
+        //       if(num >= data.length ){
+        //         num = 0
+        //       }
+        // }
+        // updataImg()
+        // setInterval(() => {
+        //     updataImg()
+        // }, 1000)
+
+        const as = document.querySelectorAll('.category a')
+        for (let i = 0; i < as.length; i++) {
+            console.log(as[i])
+            as[i].addEventListener('mouseenter', function(){
+             
+                for (let j = 0; j < as.length; j++) {
+                    as[j].classList.remove('active')
+                }   
+                this.classList.add('active')
+            })
+        }
+
+    </script>
+</body>
+
+</html>

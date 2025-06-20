@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <!-- <script>
         let names = ['马超','孙俪','马超','孙俪','马超','孙俪']
@@ -22,14 +24,47 @@
         // }
         // alert('数组的最大值是:' +max)
 
-let min = arr[0]
-for(let i = 1; i < arr.length; i++){
-    if(min < arr[i]){
-        max = arr[i]
-    }
-}
-alert('数组的最小值是:' +min)
+        let min = arr[0]
+        for (let i = 1; i < arr.length; i++) {
+            if (min < arr[i]) {
+                max = arr[i]
+            }
+        }
+            
+        // 这样的写法，会导致if判断一致false  因为undefined和任何数字比较都是false
+        // let min2  
+        // for (let i = 0; i < arr.length; i++) {
+        //     if (min2 < arr[i]) {
+        //         max = arr[i]
+        //     }
+        // }
+        
+        // alert('数组的最小值是:' + min)
+
+
+        let num = 0
+
+        function a(){
+            outerBlock:
+            for(let i = 0; i<5; i++){
+                // console.log('aaaaaa', i)
+                for(let j = 0; j<5; j++){ 
+                    ++num
+                    console.log( `我是中断前的日志，当前i = ${i}, 当前的j = ${j}, 当前的num = ${num}, 预计的的num = ${i* 5 +j}`)
+
+                    if(num === 11){
+                        // break  outerBlock
+                        // continue   
+                        // return   
+                    }
+                    console.log('after', j,num)
+                }
+            }
+        }
+
+       let ab =  a()
     </script>
-    
+
 </body>
+
 </html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//         let j1 = 12
+//         let j2 = j1
+//         j2 = 15
+ 
+// console.log(j1, j2)  // 12  15
+
+
+        // let a = {
+        //     name: 'zhangsan',
+        //     age: 20,
+        // }
+        // let b = a
+        // b.name = 'lisi' 
+
+        // b = {
+        //     age: 23
+        // }
+        // console.log(a, b)
+
+
+        //   {
+        //     name: 'lisi',
+        //             age: 23,
+        //   }
+        //   {
+        //     name: 'li',
+        //             age: 23,
+        //   }
+        
+        const zh = {id: 1, leve: 20} // ==> {id: 10, leve: 2}
+        zh.id = 10
+        zh.leve = 2
+        delete  zh.id
+        const arr = []
+        arr[0] = 1
+        arr[1] = 2
+        arr.push(3)
+        arr.unshift(4)
+
+
+        
+        // zh = {
+        //     id: 10,  
+        // }
+        console.log(zh, arr) // {id: 10, leve: 2}
+        
+    </script>
+</body>
+</html>

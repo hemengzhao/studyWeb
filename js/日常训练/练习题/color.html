@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let arr = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f']
+        function Getrandomcolor(isFlag = true) {
+            if (isFlag) {
+                // isFlag == true   =>  Boolean(isFlag)
+                //  Boolean(323)
+                // #a7d2o0
+                let str = '#'
+                for (let i = 0; i <= 5; i++) {
+                    let random = Math.floor(Math.random() * arr.length)
+                    str += arr[random]
+                }
+                console.log(str)
+                return  str
+            } else {
+                let str = 'rgb'
+                // rgb(12, 35, 234)
+                let random = Math.floor(Math.random() * 255)
+                let random1 = Math.floor(Math.random() * 255)
+                let random2 = Math.floor(Math.random() * 255)
+                // str = 'rgb(' + random + ',' + random1 + ',' +random2 +')'
+
+                str = `rgb(${random},${random1},${random2})`
+                console.log(str)
+               return  str
+            }
+
+        }
+      let a =  Getrandomcolor(true)
+       let b = Getrandomcolor(false)
+      let c =  Getrandomcolor()
+      console.log(a,b,c)
+    </script>
+</body>
+
+</html>

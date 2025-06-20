@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function cs(arr, type) {
+            let sum = 0
+            for (let i = 0; i < arr.length; i++) {
+                sum += arr[i]
+            }
+            if (type === true || type === undefined) {
+                return sum
+            } else if (type === false) {
+                let avg = sum / arr.length
+                return avg
+            }
+
+        }
+let arr = [1, 2, 3, 4, 5]
+        // let a = cs([1, 2, 3, 4, 5], true)
+        let b = cs([1, 2, 3, 4, 5], false)
+        // let c = cs([1, 2, 3, 4, 5])
+
+         
+
+        let d = cs([cs([1, 2, 3,10, 4, 5]), 2, cs([1, 2, 3, 4, 5], false), 4, 5], true)
+        
+        cs(
+            [
+                cs([1, 2, 3,10, 4, 5]), 
+                123,
+                cs([1, 2, 3,10, 4, 5], false)
+            ]
+        
+        , true)
+
+        console.log(a, b, c, d)
+    </script>
+</body>
+
+</html>

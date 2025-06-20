@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            height: 300px;
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="./didi/1.jpg" alt="我是肖战老婆" />
+    <script>
+        const img = document.querySelector('img')
+        console.log(img.src)
+        console.log(img.alt)
+        // img.src = './images/2.png'
+        const arr = [
+            './didi/1.jpg',
+            './didi/2.jpeg',
+            './didi/3.jpeg',
+            './didi/4.webp'
+        ]
+        const random = Math.floor(Math.random()*arr.length)
+        console.log(arr[random])
+        img.src = arr[random]
+    </script>
+</body>
+
+</html>

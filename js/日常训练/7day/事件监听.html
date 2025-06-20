@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    div{
+        width: 300px;
+        height: 300px;
+        font-size: 20px;
+        line-height: 300px;
+        background-color: aqua;
+        color: brown;
+        text-align: center;
+    }
+</style>
+
+</head>
+<body>
+   <!-- <button>按钮</button> 
+   <script>
+    const btn = document.querySelector('button')
+    let i = 0
+    btn.addEventListener('click',function(){
+        i++
+       alert('我被惦记了' + i) 
+    })
+   </script> -->
+
+<div>迪丽热巴是肖战的老婆</div>
+<script>
+    const div = document.querySelector('div')
+
+    // div.onclick = function(){
+    //     console.log('ai❤️asd')
+    // }
+
+    // 1.鼠标点击事件
+    div.addEventListener('click', function(){
+        console.log('ai❤️')
+    })
+
+     div.addEventListener('click', function(){
+        console.log('ai❤️1')
+    })
+
+
+     div.addEventListener('click', function(){
+        console.log('ai❤️2')
+    })
+
+
+    // 2.进入事件
+    div.addEventListener('mouseenter',function(){
+        console.log('我进入了他们的世界')
+    })
+
+    // 3.离开事件
+    div.addEventListener('mouseleave',function(){
+        console.log('我离开了div')
+    })
+</script>
+
+</body>
+</html>

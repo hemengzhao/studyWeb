@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    间隔函数：
+    开启定时器：
+    <script>
+        // 书面写法：
+        // function setName(){
+        //    console.log('刘刘六六')  
+        // }
+        // setInterval(setName,1000)
+
+        // 简写：
+        // setInterval(function(){
+        //     console.log('刘刘六六')
+        // },1000)
+
+        // const timerId = setInterval(function(){
+        //    console.log('刘刘六六') 
+        // },1000)
+
+        // const con = setInterval(function(){
+        //     console.log('肖战')
+        // },1000)
+
+        //    关闭定时器：
+        let num = 0
+        function setName() {
+            console.log('dilireba')
+            num++
+            if (num === 3) {
+                clearInterval(timerId)
+            }
+        }
+
+        let timerId = setInterval(setName, 1000)
+    </script>
+</body>
+
+</html>

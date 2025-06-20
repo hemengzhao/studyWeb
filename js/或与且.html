@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // 且 与   &&
+        // 或   ||
+
+        if (true && true) {
+            // 前后都是真值才会进入到此处
+        }
+
+        if (false || true) {
+            // 前后有一个是真值就会进入到此处
+        }
+
+        
+        console.log(0 && 1)
+        console.log(0 || 1)
+
+        function getBooll(a) {
+            console.log('aaa===>', a)
+            return a
+        }
+        console.log(getBooll(2) || getBooll(3))
+
+        let a1 = Symbol('name')
+        let a2 = Symbol('name')
+
+        a1 && getBooll(2)
+        if (a1) {
+            getBooll(2)
+        }
+        // 三目运算
+        a1 ? getBooll(2) : null
+
+
+        console.log(a1 == a2) // true  false
+        //  js数据类型      String  Boolan  Number  null  undefined   Symbol   BigInt 
+
+        !!true
+    </script>
+</body>
+
+</html>

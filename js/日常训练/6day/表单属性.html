@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" >
+    <br>
+    <input type="password" value="1223456">
+    <br>
+    <input type="radio">男
+     <br>
+     <button>按钮</button>
+ <br>
+ <!-- <select>
+    <option value="">北京</option>
+     <option value="">上海</option>
+ </select> -->
+
+
+
+    <script>
+        const uname = document.querySelector('[type="text"]')
+        uname.value = '迪丽热巴'
+
+        const password = document.querySelector('[value="1223456"]')
+        password.type = 'text'
+
+        const radio = document.querySelector('[type="radio"]')
+        radio.checked = true
+        //  radio.checked = flase 不选中
+
+
+        const btn = document.querySelector('button')
+        btn.disabled = true
+    </script>
+</body>
+</html>

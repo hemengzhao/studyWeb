@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        // 
+        const name1 = () => {
+            console.log('我是箭头函数')
+            console.log('我不可以使用arguments 关键字', arguments)
+        } 
+        name1()
+
+
+        function name() {
+            console.log('我是普通函数')
+            console.log('我可以使用arguments 关键字', arguments)
+        }
+
+        name('asdas', 0, 11, 3, 4)
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .content{
+            padding: 20px;
+            width: fit-content;
+            border: 2px solid rgb(135, 132, 132);
+        }
+        .wrapper {
+            width: 320px;
+            /* height: 100px; */
+            display: flex;
+            align-items: start;
+            justify-content: space-around;
+        }
+
+        .ts {
+            flex: 1;
+            margin: 0 8px;
+        }
+
+        #tx {
+            width: 100%;
+
+        }
+
+        .total {
+            display: block;
+            text-align: end;
+        }
+
+        .list .item {
+            display: flex;
+            align-items: start;
+            margin-top: 8px;
+        }
+
+        p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="wrapper">
+            <img style="width: 52px; height: 52px;" src="./img/微博.png" />
+            <div class="ts">
+                <textarea id="tx" placeholder="发一条友善的评论" rows="2" maxlength="200"></textarea>
+                <span class="total">0/200字</span>
+            </div>
+            <button style="height: 40px; background-color: aqua; border: none;">发布</button>
+        </div>
+
+        <div class="list">
+            <div class="item">
+                <img style="width: 52px; height: 52px;" src="./img/微博.png" />
+                <div class="info" style="margin-left: 8px;">
+                    <p style="color: darkred; font-weight: 600;">迪丽热巴@肖战</p>
+                    <p>今天是没登微博的第8天</p>
+                    <p style="font-size: 10px; color: darkgray;">2025-06-06 21:06:03</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+html, body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+padding: 0;
+}
+
+.container{
+  width: 100%;
+ 
+}
+.color{
+ background-color: black; 
+}
+ .type{
+margin: 0 auto;
+width: 1226px;
+
+}
+.container .content{
+ height: 50px;   
+}
+.nav{
+ color: aliceblue;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+}
+.nav a{
+    margin-right: 12px;
+}
+.sousuo {
+    display: flex;
+}
+
+.category{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    /* line-height: 100px; */
+    align-items: center;
+    text-decoration: none;
+}
+.category a{
+   text-decoration: none;
+
+}
+.category a.active{
+background-color: aqua;
+     
+}
+
+ .sousuo>input {
+    width: 244px;
+    height: 42px;
+}
+
+.sousuo .scher {
+    width: 48px;
+    height: 46px;
+    border: 1px solid rgb(133, 130, 130);
+    line-height: 46px;
+    text-align: center;
+}
+
+.sousuo img {
+    width: 18px;
+    height: 20px;
+}
+.picter img{
+    height: 454px;
+}
+.cirle li{
+width: 14px;
+height: 14px;
+border-radius: 50%;  
+ margin-right: 4px;  
+
+}
+.cirle li::after{
+    content: "";
+    display: flex;
+    width: 12px;
+    height: 12px;
+    background-color: #eee8e8;
+    border-radius: 50%;
+ }
